@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="firstName" value="fn"/>
+  <parameter name="lastName" value="ln"/>
+  <parameter name="expectedProduct" value="0"/>
+  <parameter name="address" value="Grafelfinger Str 8"/>
+  <parameter name="city" value="Munich"/>
+  <parameter name="weight" value="300"/>
+  <parameter name="paymentMethod" value="PayPal"/>
+  <parameter name="postal" value="81375"/>
+  <parameter name="productName" value="Hammer"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.ContorionPageTest">
+        <methods>
+          <include name="enterBillingAddressToProceedForPayment" invocation-numbers="0"/>
+          <include name="addProductToCart" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="basicSetUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ContorionPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

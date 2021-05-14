@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30598" started-at="2021-05-14T09:28:14 CEST" finished-at="2021-05-14T09:28:44 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30598" started-at="2021-05-14T09:28:14 CEST" finished-at="2021-05-14T09:28:44 CEST">
+      <class name="com.qa.testcases.ContorionPageTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="basicSetUp" is-config="true" duration-ms="1219" started-at="2021-05-14T09:28:14 CEST" finished-at="2021-05-14T09:28:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="launchURL" duration-ms="6092" started-at="2021-05-14T09:28:15 CEST" finished-at="2021-05-14T09:28:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="loginIntoContorionPortal(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="loginIntoContorionPortal" duration-ms="6239" started-at="2021-05-14T09:28:22 CEST" data-provider="passSheet" finished-at="2021-05-14T09:28:28 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shra_testb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoContorionPortal -->
+        <test-method status="PASS" signature="selectFirstProduct(java.lang.String, int)[pri:3, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="selectFirstProduct" duration-ms="6030" started-at="2021-05-14T09:28:28 CEST" finished-at="2021-05-14T09:28:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstProduct -->
+        <test-method status="PASS" signature="addProductToCart(java.lang.String)[pri:4, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="addProductToCart" duration-ms="4294" started-at="2021-05-14T09:28:35 CEST" finished-at="2021-05-14T09:28:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method status="PASS" signature="verifyItemsInCart(int)[pri:5, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="verifyItemsInCart" duration-ms="2753" started-at="2021-05-14T09:28:39 CEST" finished-at="2021-05-14T09:28:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsInCart -->
+        <test-method status="PASS" signature="enterBillingAddressToProceedForPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="enterBillingAddressToProceedForPayment" duration-ms="2347" started-at="2021-05-14T09:28:42 CEST" finished-at="2021-05-14T09:28:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ln]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Grafelfinger Str 8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81375]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Munich]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PayPal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterBillingAddressToProceedForPayment -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testcases.ContorionPageTest@1060b431]" name="closeBrowser" is-config="true" duration-ms="556" started-at="2021-05-14T09:28:44 CEST" finished-at="2021-05-14T09:28:44 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testcases.ContorionPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
